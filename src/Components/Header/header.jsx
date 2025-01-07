@@ -4,9 +4,9 @@ import chef from "../../assets/chef-logo.jpg"
 const Header = () => {
     return(
         <>
-        <header>
-            <img src = {chef} alt = "chef logo" />
-            <h1>Chef Claude</h1>
+        <header className = "main-header">
+            <img src = {chef} alt = "chef logo"  className = "header-image"/>
+            <h1 className="main-heading">Chef Claude</h1>
         </header>
         </>
     )
