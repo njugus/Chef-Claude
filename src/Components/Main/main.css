@@ -1,24 +1,31 @@
 .main-section{
-    border : 1px solid gray;
+    /* border : 1px solid gray; */
+    padding: 20px 30px;
+}
+
+.form-section{
+    /* border : 1px solid gray; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap : 1rem;
-    padding: 1.5rem;
+    flex-wrap: wrap;
 }
 
-main > input{
-    width: 500px;
+.form-section > input{
+    max-width: 600px;
+    min-width: 300px;
     height: 40px;
     padding: 0.5rem;
-}
-
-main > button {
-    width: 250px;
-    height: 40px;
+    flex-grow: 1;
     border-radius: 5px;
-    color: white;
-    background-color: black;
 }
 
+.form-section > button {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color : white;
+    border-radius: 5px;
+}
