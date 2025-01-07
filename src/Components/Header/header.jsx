@@ -1,4 +1,5 @@
 import "./header.css"
+//better practice - import static asset
 import chef from "../../assets/chef-logo.jpg"
 
 const Header = () => {
