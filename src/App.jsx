@@ -1,4 +1,5 @@
 import Header from "./Components/Header/header"
+import "./assets/globals.css"
 
 function App() {
 
